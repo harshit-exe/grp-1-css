@@ -1,0 +1,215 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    background-color: #f7f7f7;
+    color: #222;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff7f00;
+}
+.logo h1 span{
+    color: blue;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #222;
+    font-weight: 600;
+    transition: color 0.3s ease;
+    padding: 25px;
+}
+
+.nav-links a:hover {
+    color: #ff7f00;
+}
+
+.nav-icons {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.fas {
+    margin-right: 10px;
+    color: #666;
+}
+
+.profile-pic {
+    width:30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #ff7f00;
+    color: #fff;
+}
+
+.hero-content {
+    flex: 1;
+    padding-right: 50px;
+}
+
+.hero-content h2 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero-content span {
+    color: #fff;
+    font-weight: bold;
+}
+
+.hero-content p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.shop-now-btn {
+    background-color: #fff;
+    color: #ff7f00;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.shop-now-btn:hover {
+    background-color: #e67300;
+}
+
+.hero-image {
+    flex: 1;
+    position: relative;
+}
+
+.shoe-image {
+    width: 487px;
+    height: 500px;
+    object-fit: contain;
+}
+
+.a-icon {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.link{
+    text-decoration: none;
+    font-size: large;
+}
+.service-overview {
+    background-color: #fff;
+    padding: 10px 0;
+    margin-top: 0px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.overview-item {
+    text-align: center;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.overview-item p:first-of-type {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 13px;
+}
+
+.overview-item p:last-of-type {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.seven-logo {
+    width: 150px;
+    
+}
+
+.message-svg{
+    height: 50px;
+    padding: 10px;
+
+}
+
+.people-svg{
+    height: 50px;
+    padding: 10px;
+
+}
+.high-svg{
+    height: 50px;
+    padding: 10px;
+
+}
+.rating-svg{
+    height: 50px;
+    padding: 10px;
+
+}
+
+footer {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    clear: both;
+}
